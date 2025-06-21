@@ -82,24 +82,24 @@ Try accessing http://localhost:3000/dashboard without logging in (e.g., in an in
 
 ### 📂 Project Structure
 sso-prototype/
-├── backend/              # Node.js/Express backend
-│   ├── config/           # Configuration (JWT secret)
-│   ├── routes/           # API routes (auth, protected)
-│   ├── middleware/       # Authentication middleware
-│   ├── users.json        # Mock user database
-│   ├── package.json      # Backend dependencies
-│   └── server.js         # Main server file
-├── frontend/             # React frontend
-│   ├── public/           # Static assets (HTML, manifest)
-│   ├── src/              # React components, styles
-│   │   ├── components/   # Login, Dashboard, Logout
-│   │   ├── App.js        # Main app with routes
-│   │   ├── index.js      # React entry point
-│   │   └── styles.css    # CSS styles
-│   ├── package.json      # Frontend dependencies
-│   └── .env              # Frontend environment variables
-├── README.md             # Project documentation
-└── .gitignore            # Excludes node_modules, .env
+├── backend/              ## Node.js/Express backend
+│   ├── config/           ## Configuration (JWT secret)
+│   ├── routes/           ## API routes (auth, protected)
+│   ├── middleware/       ## Authentication middleware
+│   ├── users.json        ## Mock user database
+│   ├── package.json      ## Backend dependencies
+│   └── server.js         ## Main server file
+├── frontend/             ## React frontend
+│   ├── public/           ## Static assets (HTML, manifest)
+│   ├── src/              ## React components, styles
+│   │   ├── components/   ## Login, Dashboard, Logout
+│   │   ├── App.js        ## Main app with routes
+│   │   ├── index.js      ## React entry point
+│   │   └── styles.css    ## CSS styles
+│   ├── package.json      ## Frontend dependencies
+│   └── .env              ## Frontend environment variables
+├── README.md             ## Project documentation
+└── .gitignore            ## Excludes node_modules, .env
 
 🐛 Troubleshooting
 Port in Use: Change PORT in backend/.env or kill processes:
