@@ -1,0 +1,8 @@
+{
+  "short_name": "SSO App",
+  "name": "Single Sign-On Prototype",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
